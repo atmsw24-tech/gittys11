@@ -1,1322 +1,994 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>MigrationAdmin | Premium Migration Drafting Support</title>
+    <title>MigrationAdmin</title>
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- HEADER -->
+<!-- NAVIGATION -->
 <header class="header">
-  <div class="container nav-wrap">
 
-    <a href="#" class="logo">
-      migration<span>admin</span>
-    </a>
+    <div class="nav-container">
 
-    <nav class="nav" id="nav">
-      <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#why-us">Why Us</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact" class="nav-button">Start a Case</a>
-    </nav>
+        <a href="#" class="logo">
+            migration<span>admin</span>
+        </a>
 
-    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <nav id="nav">
 
-  </div>
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#why">Why Us</a>
+            <a href="#faq">FAQ</a>
+
+            <a href="#contact" class="nav-cta">
+                Start a Case
+            </a>
+
+        </nav>
+
+        <button class="menu" onclick="toggleMenu()">
+            ☰
+        </button>
+
+    </div>
+
 </header>
 
 
 <!-- HERO -->
+
 <section class="hero">
-  <div class="container hero-grid">
 
-    <div class="hero-content">
+    <div class="hero-container">
 
-      <div class="eyebrow">
-        B2B MIGRATION SUPPORT · AUSTRALIA
-      </div>
+        <div class="hero-left reveal">
 
-      <h1>
-        Precision<br>
-        Drafting <span>Excellence.</span>
-      </h1>
+            <div class="small-label">
+                AUSTRALIAN MIGRATION SUPPORT
+            </div>
 
-      <p class="hero-text">
-        Meticulous attention to detail in every document we prepare.
-        Premium administrative and drafting support for Australian
-        migration professionals.
-      </p>
+            <h1>
+                Precision<br>
+                <span>Drafting</span><br>
+                Excellence.
+            </h1>
 
-      <div class="hero-buttons">
-        <a href="#services" class="btn btn-dark">
-          Explore Services
-        </a>
+            <p>
+                Professional drafting and administrative support
+                for Australian migration professionals.
+            </p>
 
-        <a href="#contact" class="btn btn-outline">
-          Start a Case →
-        </a>
-      </div>
+            <div class="hero-buttons">
 
-      <div class="trust-row">
+                <a href="#services" class="button black">
+                    Explore Services
+                </a>
 
-        <div>
-          <strong>✓</strong>
-          <span>B2B Only</span>
+                <a href="#contact" class="button white">
+                    Start a Case →
+                </a>
+
+            </div>
+
+            <div class="trust">
+
+                <span>✓ B2B Only</span>
+                <span>✓ Confidential</span>
+                <span>🇦🇺 Australian Owned</span>
+
+            </div>
+
         </div>
 
-        <div>
-          <strong>✓</strong>
-          <span>100% Confidential</span>
-        </div>
 
-        <div>
-          <strong>🇦🇺</strong>
-          <span>Australian Owned</span>
-        </div>
+        <!-- FLOATING HERO CARD -->
 
-      </div>
+        <div class="hero-visual reveal">
+
+            <div class="floating-card card-one">
+
+                <small>CASE SUPPORT</small>
+
+                <strong>Premium</strong>
+
+                <span>Drafting Services</span>
+
+            </div>
+
+            <div class="floating-card card-two">
+
+                <div class="check">✓</div>
+
+                <div>
+                    <strong>Quality Reviewed</strong>
+                    <small>Every document</small>
+                </div>
+
+            </div>
+
+            <div class="main-visual">
+
+                <div class="visual-top">
+                    <span>01</span>
+                    <span>CASE FILE</span>
+                </div>
+
+                <div class="visual-lines">
+
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+
+                </div>
+
+                <div class="visual-bottom">
+                    MIGRATION ADMIN
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
-
-
-    <!-- HERO CARD -->
-    <div class="hero-card">
-
-      <div class="hero-card-top">
-        <span>FEATURED SERVICES</span>
-        <span class="dot"></span>
-      </div>
-
-      <div class="hero-service">
-
-        <div class="service-number">01</div>
-
-        <div>
-          <h3>407 Training Plan</h3>
-          <p>Structured training plans mapped to visa requirements.</p>
-        </div>
-
-        <strong>$999</strong>
-
-      </div>
-
-      <div class="hero-service">
-
-        <div class="service-number">02</div>
-
-        <div>
-          <h3>Business Plans</h3>
-          <p>Compliant plans for sponsorship applications.</p>
-        </div>
-
-        <strong>$1,199</strong>
-
-      </div>
-
-      <div class="hero-service">
-
-        <div class="service-number">03</div>
-
-        <div>
-          <h3>LMT Reports</h3>
-          <p>Complete migration reports package.</p>
-        </div>
-
-        <strong>$1,399</strong>
-
-      </div>
-
-      <div class="hero-card-footer">
-        Premium drafting support · Australia
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- FEATURED SERVICES -->
-<section class="featured-services">
-
-  <div class="container">
-
-    <div class="section-heading center">
-      <span class="eyebrow">WHAT WE DO</span>
-
-      <h2>
-        Drafting support that<br>
-        <span>keeps you moving.</span>
-      </h2>
-
-      <p>
-        We work behind the scenes so migration professionals can
-        focus on their clients and practice.
-      </p>
-    </div>
-
-
-    <div class="featured-grid">
-
-      <div class="featured-card">
-        <span class="card-icon">01</span>
-        <h3>407 Training Plans</h3>
-        <p>
-          Structured training plans mapped to occupational
-          requirements and visa duration.
-        </p>
-        <a href="#services">View service →</a>
-      </div>
-
-      <div class="featured-card featured-dark">
-        <span class="card-icon">02</span>
-        <h3>Business Plans</h3>
-        <p>
-          Immigration-focused business plans with financial
-          forecasts and organisational structures.
-        </p>
-        <a href="#services">View service →</a>
-      </div>
-
-      <div class="featured-card">
-        <span class="card-icon">03</span>
-        <h3>LMT Reports</h3>
-        <p>
-          Audit-ready Labour Market Testing reports and
-          supporting evidence.
-        </p>
-        <a href="#services">View service →</a>
-      </div>
-
-    </div>
-
-  </div>
 
 </section>
 
 
-<!-- RELATIONSHIP SECTION -->
-<section class="relationship">
+<!-- INTRO -->
 
-  <div class="container relationship-grid">
+<section class="intro">
 
-    <div>
-      <span class="eyebrow">YOUR PRACTICE · OUR SUPPORT</span>
+    <div class="container reveal">
 
-      <h2>
-        We Respect Your<br>
-        <span>Client Relationships.</span>
-      </h2>
-    </div>
-
-    <div class="relationship-text">
-
-      <p>
-        We act as your silent partner. Our strict Non-Solicitation
-        Policy ensures we never contact your clients directly or
-        compete for their business.
-      </p>
-
-      <div class="relationship-points">
-
-        <div>
-          <span>✓</span>
-          <div>
-            <strong>Non-Compete Agreement</strong>
-            <p>Legally binding protection for your practice.</p>
-          </div>
+        <div class="intro-number">
+            01
         </div>
 
         <div>
-          <span>✓</span>
-          <div>
-            <strong>Zero Client Contact</strong>
-            <p>We never communicate with your clients.</p>
-          </div>
+
+            <div class="small-label">
+                YOUR PRACTICE · OUR SUPPORT
+            </div>
+
+            <h2>
+                We respect your
+                <span>client relationships.</span>
+            </h2>
+
+            <p>
+                We work behind the scenes to support your practice.
+                Our role is to make your administrative and drafting
+                workload easier while you remain focused on your clients.
+            </p>
+
         </div>
 
-        <div>
-          <span>✓</span>
-          <div>
-            <strong>Strict Confidentiality</strong>
-            <p>Your information remains protected.</p>
-          </div>
-        </div>
-
-      </div>
-
     </div>
-
-  </div>
-
-</section>
-
-
-<!-- PROCESS -->
-<section class="process" id="process">
-
-  <div class="container">
-
-    <div class="section-heading center">
-      <span class="eyebrow">✨ THE PARTNER WORKFLOW</span>
-
-      <h2>
-        Our Collaboration<br>
-        <span>Process.</span>
-      </h2>
-
-      <p>
-        A streamlined 7-step workflow designed for efficiency
-        and quality.
-      </p>
-    </div>
-
-
-    <div class="process-grid">
-
-      <div class="process-step">
-        <span>01</span>
-        <div class="step-line"></div>
-        <h3>Discovery Call</h3>
-      </div>
-
-      <div class="process-step">
-        <span>02</span>
-        <div class="step-line"></div>
-        <h3>Contract & Invoice</h3>
-      </div>
-
-      <div class="process-step">
-        <span>03</span>
-        <div class="step-line"></div>
-        <h3>Case Details</h3>
-      </div>
-
-      <div class="process-step">
-        <span>04</span>
-        <div class="step-line"></div>
-        <h3>Internal Review</h3>
-      </div>
-
-      <div class="process-step">
-        <span>05</span>
-        <div class="step-line"></div>
-        <h3>First Draft</h3>
-      </div>
-
-      <div class="process-step">
-        <span>06</span>
-        <div class="step-line"></div>
-        <h3>RMA Review</h3>
-      </div>
-
-      <div class="process-step">
-        <span>07</span>
-        <div class="step-line"></div>
-        <h3>Final Delivery</h3>
-      </div>
-
-    </div>
-
-    <div class="process-cta">
-      Ready to streamline your migration cases?
-      <a href="#contact">Let's get started →</a>
-    </div>
-
-  </div>
 
 </section>
 
 
 <!-- SERVICES -->
+
 <section class="services" id="services">
 
-  <div class="container">
+    <div class="container">
 
-    <div class="section-heading">
-      <span class="eyebrow">THE SERVICE MENU</span>
+        <div class="section-heading reveal">
 
-      <h2>
-        Services &<br>
-        <span>Pricing.</span>
-      </h2>
+            <div>
+                <div class="small-label">
+                    WHAT WE DO
+                </div>
 
-      <p>
-        Transparent pricing for premium drafting support.
-      </p>
-    </div>
-
-
-    <div class="service-list">
-
-
-      <!-- 407 -->
-      <article class="service-card">
-
-        <div class="service-header">
-
-          <div>
-            <span class="popular">POPULAR</span>
-
-            <h3>407 Training Plan Report</h3>
-
-            <div class="price">
-              $999 <small>+ GST</small>
+                <h2>
+                    Services &<br>
+                    <span>Pricing.</span>
+                </h2>
             </div>
 
-            <div class="turnaround">
-              ⏱ 5–7 Business Days
-            </div>
-          </div>
-
-          <span class="big-number">01</span>
-
-        </div>
-
-        <div class="service-body">
-
-          <div>
-            <h4>Summary</h4>
             <p>
-              Detailed structured training plans mapped to the
-              nominee's gap and visa duration.
+                Professional drafting support designed
+                specifically for migration professionals.
             </p>
-          </div>
-
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              We explicitly link the "Tasks to be Learned" with
-              the supervisor's qualifications to prove genuine
-              training capacity.
-            </p>
-            <p>
-              Mapped directly to the legislative instrument for
-              Occupational Trainees.
-            </p>
-          </div>
 
         </div>
 
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
 
-      </article>
+        <div class="service-grid">
 
 
-      <!-- BUSINESS -->
-      <article class="service-card">
+            <article class="service-card reveal">
 
-        <div class="service-header">
+                <div class="service-number">01</div>
 
-          <div>
-            <span class="popular">POPULAR</span>
+                <div class="icon-box">
+                    407
+                </div>
 
-            <h3>Business Plans – 482/186/494/187</h3>
+                <h3>
+                    407 Training Plan Report
+                </h3>
 
-            <div class="price">
-              $1,199 <small>+ GST</small>
-            </div>
+                <p>
+                    Structured training plans mapped to
+                    visa and occupational requirements.
+                </p>
 
-            <div class="turnaround">
-              ⏱ 5–7 Business Days
-            </div>
-          </div>
+                <div class="service-price">
+                    $999 <small>+ GST</small>
+                </div>
 
-          <span class="big-number">02</span>
+                <div class="service-time">
+                    5–7 Business Days
+                </div>
 
-        </div>
+                <a href="#contact">
+                    View Service →
+                </a>
 
-        <div class="service-body">
+            </article>
 
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Compliant plans for 482 Sponsorship approval
-              (New Business) and tech startups.
-            </p>
-          </div>
 
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              Unlike generic copywriters, we focus on the
-              Immigration Criteria — financial viability and
-              training expenditure.
-            </p>
-            <p>
-              Includes 3-year P&L forecasts and organisational
-              charts ready for Department scrutiny.
-            </p>
-          </div>
+            <article class="service-card reveal">
 
-        </div>
+                <div class="service-number">02</div>
 
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
+                <div class="icon-box">
+                    BP
+                </div>
 
-      </article>
+                <h3>
+                    Business Plans
+                </h3>
 
+                <p>
+                    Immigration-focused business plans,
+                    financial forecasts and supporting structures.
+                </p>
 
-      <!-- LMT -->
-      <article class="service-card">
+                <div class="service-price">
+                    $1,199 <small>+ GST</small>
+                </div>
 
-        <div class="service-header">
+                <div class="service-time">
+                    5–7 Business Days
+                </div>
 
-          <div>
-            <span class="popular">POPULAR</span>
+                <a href="#contact">
+                    View Service →
+                </a>
 
-            <h3>LMT Reports – 482/186/494</h3>
+            </article>
 
-            <div class="price dual">
-              <strong>$1,399</strong>
-              <small>Without Ad</small>
 
-              <strong>$1,780</strong>
-              <small>With Ad</small>
-            </div>
+            <article class="service-card reveal featured">
 
-            <div class="turnaround">
-              ⏱ 5–7 Business Days + Ad duration
-            </div>
-          </div>
+                <div class="service-number">03</div>
 
-          <span class="big-number">03</span>
+                <div class="icon-box">
+                    LMT
+                </div>
 
-        </div>
+                <h3>
+                    LMT Reports
+                </h3>
 
-        <div class="service-body">
+                <p>
+                    Labour Market Testing reports and
+                    supporting compliance documentation.
+                </p>
 
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Complete Migration Reports Package: LMT Report +
-              Genuine Position Statement + AMSR Report.
-            </p>
-          </div>
+                <div class="service-price">
+                    $1,399
+                </div>
 
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              We manage the strict 28-day timeline and ensure
-              ad content meets exact salary and skill specifications.
-            </p>
-            <p>
-              Delivered with a full audit-ready evidence pack.
-            </p>
-          </div>
+                <div class="service-time">
+                    Without Advertisement
+                </div>
 
-        </div>
+                <a href="#contact">
+                    View Service →
+                </a>
 
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
+            </article>
 
-      </article>
 
+            <article class="service-card reveal">
 
-      <!-- AMSR -->
-      <article class="service-card small-card">
+                <div class="service-number">04</div>
 
-        <div class="service-header">
+                <div class="icon-box">
+                    AM
+                </div>
 
-          <div>
-            <h3>AMSR Reports</h3>
+                <h3>
+                    AMSR Reports
+                </h3>
 
-            <div class="price">
-              $350 <small>+ GST</small>
-            </div>
+                <p>
+                    Annual Market Salary Rate reports
+                    for sponsorship applications.
+                </p>
 
-            <div class="turnaround">
-              ⏱ 5–7 Business Days
-            </div>
-          </div>
+                <div class="service-price">
+                    $350 <small>+ GST</small>
+                </div>
 
-          <span class="big-number">04</span>
+                <div class="service-time">
+                    5–7 Business Days
+                </div>
 
-        </div>
+                <a href="#contact">
+                    View Service →
+                </a>
 
-        <div class="service-body">
+            </article>
 
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Annual Market Salary Rate reports for sponsorship
-              applications.
-            </p>
-          </div>
 
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              Comprehensive salary benchmarking aligned with
-              current market data.
-            </p>
-          </div>
+            <article class="service-card reveal">
 
-        </div>
+                <div class="service-number">05</div>
 
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
+                <div class="icon-box">
+                    GP
+                </div>
 
-      </article>
+                <h3>
+                    Genuine Position Reports
+                </h3>
 
+                <p>
+                    Professionally drafted statements
+                    supporting nomination applications.
+                </p>
 
-      <!-- GENUINE -->
-      <article class="service-card small-card">
+                <div class="service-price">
+                    $499 <small>+ GST</small>
+                </div>
 
-        <div class="service-header">
+                <div class="service-time">
+                    5–7 Business Days
+                </div>
 
-          <div>
-            <h3>Genuine Position Reports</h3>
+                <a href="#contact">
+                    View Service →
+                </a>
 
-            <div class="price">
-              $499 <small>+ GST</small>
-            </div>
+            </article>
 
-            <div class="turnaround">
-              ⏱ 5–7 Business Days
-            </div>
-          </div>
 
-          <span class="big-number">05</span>
+            <article class="service-card reveal">
 
-        </div>
+                <div class="service-number">06</div>
 
-        <div class="service-body">
+                <div class="icon-box">
+                    LMT
+                </div>
 
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Custom-drafted submissions for 482, 186 and
-              494 nominations.
-            </p>
-          </div>
+                <h3>
+                    LMT Report Only
+                </h3>
 
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              We map specific ANZSCO tasks to actual business
-              activities to prove the need.
-            </p>
-          </div>
+                <p>
+                    Standalone Labour Market Testing
+                    report and evidence package.
+                </p>
 
-        </div>
+                <div class="service-price">
+                    $850
+                </div>
 
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
+                <div class="service-time">
+                    Without Advertisement
+                </div>
 
-      </article>
+                <a href="#contact">
+                    View Service →
+                </a>
 
+            </article>
 
-      <!-- LMT ONLY -->
-      <article class="service-card small-card">
 
-        <div class="service-header">
+            <article class="service-card reveal wide">
 
-          <div>
-            <h3>LMT Report Only</h3>
+                <div class="service-number">07</div>
 
-            <div class="price dual">
-              <strong>$850</strong>
-              <small>Without Ad</small>
+                <div class="icon-box">
+                    NIV
+                </div>
 
-              <strong>$1,150</strong>
-              <small>With Ad</small>
-            </div>
+                <h3>
+                    National Innovation Visa Portfolio
+                </h3>
 
-            <div class="turnaround">
-              ⏱ 5–7 Business Days + Ad duration
-            </div>
-          </div>
+                <p>
+                    Comprehensive portfolio and evidence
+                    mapping for high-profile applicants.
+                </p>
 
-          <span class="big-number">06</span>
+                <div class="service-price">
+                    Price on Request
+                </div>
 
-        </div>
+                <div class="service-time">
+                    Approximately 2 Weeks
+                </div>
 
-        <div class="service-body">
+                <a href="#contact">
+                    View Service →
+                </a>
 
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Standalone Labour Market Testing report with
-              compliance documentation.
-            </p>
-          </div>
+            </article>
 
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              End-to-end LMT management including ad placement,
-              candidate screening and recruitment summary.
-            </p>
-          </div>
 
-        </div>
+            <article class="service-card reveal">
 
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
+                <div class="service-number">08</div>
 
-      </article>
+                <div class="icon-box">
+                    NT
+                </div>
 
+                <h3>
+                    NT – 491 Commitment Statement
+                </h3>
 
-      <!-- NIV -->
-      <article class="service-card">
+                <p>
+                    Tailored commitment statements for
+                    Northern Territory applications.
+                </p>
 
-        <div class="service-header">
+                <div class="service-price">
+                    $999 <small>+ GST</small>
+                </div>
 
-          <div>
-            <span class="popular">POPULAR</span>
+                <div class="service-time">
+                    5–7 Business Days
+                </div>
 
-            <h3>National Innovation Visa Portfolio</h3>
+                <a href="#contact">
+                    View Service →
+                </a>
 
-            <div class="price">
-              Price on Request
-            </div>
+            </article>
 
-            <div class="turnaround">
-              ⏱ 2 Weeks
-            </div>
-          </div>
 
-          <span class="big-number">07</span>
+            <article class="service-card reveal">
+
+                <div class="service-number">09</div>
+
+                <div class="icon-box">
+                    TAS
+                </div>
+
+                <h3>
+                    Tasmania – 491 Commitment Statement
+                </h3>
+
+                <p>
+                    Tailored statements demonstrating
+                    genuine commitment to Tasmania.
+                </p>
+
+                <div class="service-price">
+                    $999 <small>+ GST</small>
+                </div>
+
+                <div class="service-time">
+                    5–7 Business Days
+                </div>
+
+                <a href="#contact">
+                    View Service →
+                </a>
+
+            </article>
 
         </div>
-
-        <div class="service-body">
-
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Comprehensive "Asset to Australia" statement and
-              evidence mapping for high-profile talent.
-            </p>
-          </div>
-
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              We research sector-specific data to prove the
-              applicant's international standing beyond just a CV.
-            </p>
-            <p>
-              Drafted to align strictly with the latest
-              Ministerial Direction on National Innovation.
-            </p>
-          </div>
-
-        </div>
-
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
-
-      </article>
-
-
-      <!-- NT -->
-      <article class="service-card small-card">
-
-        <div class="service-header">
-
-          <div>
-            <h3>NT – 491 Commitment Statement</h3>
-
-            <div class="price">
-              $999 <small>+ GST</small>
-            </div>
-
-            <div class="turnaround">
-              ⏱ 5–7 Business Days
-            </div>
-          </div>
-
-          <span class="big-number">08</span>
-
-        </div>
-
-        <div class="service-body">
-
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Commitment statement for Northern Territory 491
-              skilled regional visa applications.
-            </p>
-          </div>
-
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              Compelling narratives demonstrating genuine
-              commitment to living and working in NT.
-            </p>
-          </div>
-
-        </div>
-
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
-
-      </article>
-
-
-      <!-- TAS -->
-      <article class="service-card small-card">
-
-        <div class="service-header">
-
-          <div>
-            <h3>Tasmania – 491 Commitment Statement</h3>
-
-            <div class="price">
-              $999 <small>+ GST</small>
-            </div>
-
-            <div class="turnaround">
-              ⏱ 5–7 Business Days
-            </div>
-          </div>
-
-          <span class="big-number">09</span>
-
-        </div>
-
-        <div class="service-body">
-
-          <div>
-            <h4>Summary</h4>
-            <p>
-              Commitment statement for Tasmania 491 skilled
-              regional visa applications.
-            </p>
-          </div>
-
-          <div>
-            <h4>Why Us</h4>
-            <p>
-              Tailored statements demonstrating genuine intent
-              to contribute to Tasmania's economy.
-            </p>
-          </div>
-
-        </div>
-
-        <div class="service-actions">
-          <a href="#contact">Book Discovery Call</a>
-          <a href="#contact" class="dark-action">Order Report</a>
-        </div>
-
-      </article>
 
     </div>
-
-  </div>
 
 </section>
 
 
-<!-- PRIORITY -->
-<section class="priority">
+<!-- PROCESS -->
 
-  <div class="container">
+<section class="process" id="process">
 
-    <div class="priority-box">
+    <div class="container">
 
-      <div class="priority-content">
+        <div class="section-heading center reveal">
 
-        <span class="eyebrow">PRIORITY BOOKING</span>
+            <div class="small-label">
+                THE PARTNER WORKFLOW
+            </div>
 
-        <h2>
-          Need It<br>
-          <span>Faster?</span>
-        </h2>
+            <h2>
+                Our Collaboration
+                <span>Process.</span>
+            </h2>
 
-        <p>
-          For urgent matters, our Priority Booking service
-          ensures your reports are expedited based on current
-          capacity. Additional costs apply.
-        </p>
+            <p>
+                A simple seven-step workflow designed
+                for efficiency and quality.
+            </p>
 
-        <a href="#contact" class="btn btn-light">
-          Request Priority Booking →
-        </a>
-
-        <p class="priority-email">
-          or email priority@migrationadmin.com.au
-        </p>
-
-      </div>
-
-
-      <div class="priority-info">
-
-        <h3>How It Works</h3>
-
-        <div class="priority-step">
-          <span>01</span>
-          <p>
-            Select "Priority Booking" when submitting your
-            order or enquiry.
-          </p>
         </div>
 
-        <div class="priority-step">
-          <span>02</span>
-          <p>
-            We'll confirm availability and provide an
-            expedited timeline.
-          </p>
-        </div>
 
-        <div class="priority-step">
-          <span>03</span>
-          <p>
-            Your matter is fast-tracked by our senior team.
-          </p>
-        </div>
+        <div class="process-grid">
 
-      </div>
+            <div class="process-card reveal">
+                <span>01</span>
+                <h3>Discovery Call</h3>
+                <p>Understand your requirements.</p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>02</span>
+                <h3>Contract & Invoice</h3>
+                <p>Confirm your engagement.</p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>03</span>
+                <h3>Case Details</h3>
+                <p>Receive the required information.</p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>04</span>
+                <h3>Internal Review</h3>
+                <p>Our team reviews the matter.</p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>05</span>
+                <h3>First Draft</h3>
+                <p>Initial document preparation.</p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>06</span>
+                <h3>RMA Review</h3>
+                <p>Your professional review.</p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>07</span>
+                <h3>Final Delivery</h3>
+                <p>Final documents delivered.</p>
+            </div>
+
+        </div>
 
     </div>
-
-  </div>
 
 </section>
 
 
 <!-- WHY US -->
-<section class="why-us" id="why-us">
 
-  <div class="container">
+<section class="why" id="why">
 
-    <div class="section-heading center">
+    <div class="container">
 
-      <span class="eyebrow">THE DIFFERENCE</span>
+        <div class="section-heading center reveal">
 
-      <h2>
-        Built for<br>
-        <span>Migration Professionals.</span>
-      </h2>
+            <div class="small-label">
+                WHY MIGRATIONADMIN
+            </div>
+
+            <h2>
+                Built for
+                <span>Professionals.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="why-grid">
+
+            <div class="why-card reveal">
+
+                <div class="why-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Expedited Turnaround
+                </h3>
+
+                <p>
+                    Streamlined processes designed to
+                    keep your cases moving.
+                </p>
+
+            </div>
+
+
+            <div class="why-card reveal">
+
+                <div class="why-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Dedicated Attention
+                </h3>
+
+                <p>
+                    Every matter receives careful attention
+                    from our drafting team.
+                </p>
+
+            </div>
+
+
+            <div class="why-card reveal">
+
+                <div class="why-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Direct Communication
+                </h3>
+
+                <p>
+                    Clear communication throughout
+                    the drafting process.
+                </p>
+
+            </div>
+
+        </div>
 
     </div>
 
+</section>
 
-    <div class="why-grid">
 
-      <div class="why-card">
-        <span>01</span>
-        <h3>Expedited Turnaround</h3>
-        <p>
-          Jump the queue and receive reports faster based on
-          current capacity.
-        </p>
-      </div>
+<!-- PRIORITY -->
 
-      <div class="why-card">
-        <span>02</span>
-        <h3>Dedicated Attention</h3>
-        <p>
-          Your matter is prioritised by our senior drafting
-          team for quality assurance.
-        </p>
-      </div>
+<section class="priority">
 
-      <div class="why-card">
-        <span>03</span>
-        <h3>Direct Communication</h3>
-        <p>
-          Priority access to our team for updates and quick
-          clarifications.
-        </p>
-      </div>
+    <div class="container">
+
+        <div class="priority-box reveal">
+
+            <div>
+
+                <div class="small-label">
+                    PRIORITY BOOKING
+                </div>
+
+                <h2>
+                    Need it<br>
+                    <span>faster?</span>
+                </h2>
+
+                <p>
+                    For urgent matters, Priority Booking
+                    allows eligible cases to be expedited
+                    based on current capacity.
+                </p>
+
+                <a href="#contact" class="button white">
+                    Request Priority Booking →
+                </a>
+
+            </div>
+
+
+            <div class="priority-list">
+
+                <div>
+                    <span>01</span>
+                    <p>
+                        Request priority availability.
+                    </p>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <p>
+                        Receive confirmation and timeline.
+                    </p>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <p>
+                        Matter is fast-tracked.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
-
-  </div>
 
 </section>
 
 
 <!-- FAQ -->
+
 <section class="faq" id="faq">
 
-  <div class="container faq-grid">
+    <div class="container faq-container">
 
-    <div class="faq-title">
+        <div class="faq-heading reveal">
 
-      <span class="eyebrow">GOT QUESTIONS?</span>
+            <div class="small-label">
+                QUESTIONS
+            </div>
 
-      <h2>
-        Frequently<br>
-        <span>Asked Questions.</span>
-      </h2>
+            <h2>
+                Frequently<br>
+                <span>Asked.</span>
+            </h2>
 
-      <p>
-        Find answers to common questions about our services.
-      </p>
-
-    </div>
+        </div>
 
 
-    <div class="faq-list">
+        <div class="faq-list">
 
-      <details>
-        <summary>
-          Who can use MigrationAdmin services?
-          <span>+</span>
-        </summary>
+            <details class="reveal">
 
-        <p>
-          MigrationAdmin provides B2B administrative and drafting
-          support primarily for migration professionals,
-          registered migration agents and legal practitioners.
-        </p>
-      </details>
+                <summary>
+                    Who can use MigrationAdmin?
+                    <span>+</span>
+                </summary>
 
+                <p>
+                    MigrationAdmin provides B2B drafting and
+                    administrative support for migration
+                    professionals and legal practitioners.
+                </p>
 
-      <details>
-        <summary>
-          Do you provide immigration advice?
-          <span>+</span>
-        </summary>
-
-        <p>
-          No. MigrationAdmin provides administrative,
-          copywriting and research support only. Professional
-          responsibility remains with the relevant RMA or
-          legal practitioner.
-        </p>
-      </details>
+            </details>
 
 
-      <details>
-        <summary>
-          What is your typical turnaround time?
-          <span>+</span>
-        </summary>
+            <details class="reveal">
 
-        <p>
-          Most services are completed within 5–7 business days.
-          Some services, such as National Innovation Visa
-          portfolios, generally require approximately two weeks.
-        </p>
-      </details>
+                <summary>
+                    Do you provide immigration advice?
+                    <span>+</span>
+                </summary>
 
+                <p>
+                    No. Our services provide administrative,
+                    drafting and research support only.
+                </p>
 
-      <details>
-        <summary>
-          How do I submit documents for my case?
-          <span>+</span>
-        </summary>
-
-        <p>
-          After your enquiry and engagement are confirmed,
-          we'll provide instructions for supplying the required
-          case information and documents.
-        </p>
-      </details>
+            </details>
 
 
-      <details>
-        <summary>
-          What if I need revisions to the draft?
-          <span>+</span>
-        </summary>
+            <details class="reveal">
 
-        <p>
-          Your matter goes through an internal review process
-          before final delivery. Revision requirements can be
-          discussed as part of the drafting process.
-        </p>
-      </details>
+                <summary>
+                    What is the normal turnaround?
+                    <span>+</span>
+                </summary>
+
+                <p>
+                    Most services are completed within
+                    approximately 5–7 business days.
+                </p>
+
+            </details>
 
 
-      <details>
-        <summary>
-          Is my client's information secure?
-          <span>+</span>
-        </summary>
+            <details class="reveal">
 
-        <p>
-          Confidentiality is a core part of our service.
-          Information supplied for drafting purposes is treated
-          as confidential.
-        </p>
-      </details>
+                <summary>
+                    How do I submit a case?
+                    <span>+</span>
+                </summary>
+
+                <p>
+                    Contact the team to begin your engagement
+                    and receive case submission instructions.
+                </p>
+
+            </details>
+
+
+            <details class="reveal">
+
+                <summary>
+                    Is client information confidential?
+                    <span>+</span>
+                </summary>
+
+                <p>
+                    Confidentiality is an important part of
+                    our professional support process.
+                </p>
+
+            </details>
+
+        </div>
 
     </div>
-
-  </div>
 
 </section>
 
 
 <!-- CONTACT -->
+
 <section class="contact" id="contact">
 
-  <div class="container contact-grid">
+    <div class="container contact-grid">
 
-    <div class="contact-heading">
+        <div class="contact-info reveal">
 
-      <span class="eyebrow">START YOUR COLLABORATION</span>
+            <div class="small-label">
+                START A CASE
+            </div>
 
-      <h2>
-        Ready to outsource<br>
-        your <span>drafting?</span>
-      </h2>
+            <h2>
+                Ready to<br>
+                <span>get started?</span>
+            </h2>
 
-      <p>
-        Submit your details below to book a discovery call.
-      </p>
+            <p>
+                Tell us about your requirements and
+                we'll get back to you.
+            </p>
 
-      <p>
-        Or email us directly at
-        <a href="mailto:reports@migrationadmin.com.au">
-          reports@migrationadmin.com.au
-        </a>
-      </p>
+            <div class="contact-detail">
+                <small>EMAIL</small>
+                <a href="mailto:reports@migrationadmin.com.au">
+                    reports@migrationadmin.com.au
+                </a>
+            </div>
+
+        </div>
+
+
+        <form class="form reveal"
+              action="mailto:reports@migrationadmin.com.au"
+              method="post"
+              enctype="text/plain">
+
+            <label>
+                Name
+                <input type="text"
+                       name="Name"
+                       placeholder="Your name"
+                       required>
+            </label>
+
+            <label>
+                Email
+                <input type="email"
+                       name="Email"
+                       placeholder="you@example.com"
+                       required>
+            </label>
+
+            <label>
+                Phone
+                <input type="tel"
+                       name="Phone"
+                       placeholder="+61">
+            </label>
+
+            <label>
+                Service
+                <select name="Service">
+
+                    <option>Select a service</option>
+                    <option>407 Training Plan</option>
+                    <option>Business Plan</option>
+                    <option>LMT Report</option>
+                    <option>AMSR Report</option>
+                    <option>Genuine Position Report</option>
+                    <option>National Innovation Visa</option>
+                    <option>491 Commitment Statement</option>
+
+                </select>
+            </label>
+
+            <label>
+                Message
+                <textarea name="Message"
+                          placeholder="Tell us about your case"></textarea>
+            </label>
+
+            <button type="submit">
+                Send Enquiry →
+            </button>
+
+        </form>
 
     </div>
-
-
-    <form class="contact-form"
-          action="mailto:reports@migrationadmin.com.au"
-          method="post"
-          enctype="text/plain">
-
-      <label>
-        Name (Agent/Employer) *
-        <input
-          type="text"
-          name="Name"
-          placeholder="Your name or business name"
-          required>
-      </label>
-
-      <label>
-        Email Address *
-        <input
-          type="email"
-          name="Email"
-          placeholder="you@example.com"
-          required>
-      </label>
-
-      <label>
-        Phone Number *
-        <input
-          type="tel"
-          name="Phone"
-          placeholder="+61 400 000 000"
-          required>
-      </label>
-
-      <label>
-        Service Interested In *
-        <select name="Service" required>
-
-          <option value="">Select a service</option>
-          <option>407 Training Plan Report</option>
-          <option>Business Plan</option>
-          <option>LMT Report</option>
-          <option>AMSR Report</option>
-          <option>Genuine Position Report</option>
-          <option>LMT Report Only</option>
-          <option>National Innovation Visa Portfolio</option>
-          <option>NT 491 Commitment Statement</option>
-          <option>Tasmania 491 Commitment Statement</option>
-
-        </select>
-      </label>
-
-      <label class="checkbox">
-
-        <input
-          type="checkbox"
-          name="Priority Booking">
-
-        <span>
-          Priority Booking? (Extra Cost Applicable)
-        </span>
-
-      </label>
-
-      <label>
-        Message (Optional)
-
-        <textarea
-          name="Message"
-          placeholder="Tell us about your matter..."></textarea>
-
-      </label>
-
-      <button type="submit" class="submit-btn">
-        Request Call / Contract →
-      </button>
-
-      <small>
-        🔒 Your data is encrypted and never shared with
-        third parties.
-      </small>
-
-    </form>
-
-  </div>
 
 </section>
 
 
 <!-- FOOTER -->
-<footer class="footer">
 
-  <div class="container">
+<footer>
 
-    <div class="footer-main">
+    <div class="container footer-grid">
 
-      <div class="footer-brand">
+        <div>
 
-        <a href="#" class="footer-logo">
-          migration<span>admin</span>
-        </a>
+            <div class="footer-logo">
+                migration<span>admin</span>
+            </div>
 
-        <p>
-          Premium administrative & drafting support
-          for Australian Migration Agents.
-        </p>
+            <p>
+                Premium administrative and drafting
+                support for Australian migration professionals.
+            </p>
 
-        <a href="mailto:reports@migrationadmin.com.au">
-          reports@migrationadmin.com.au
-        </a>
-
-        <a href="mailto:priority@migrationadmin.com.au">
-          priority@migrationadmin.com.au
-        </a>
-
-      </div>
+        </div>
 
 
-      <div class="footer-column">
+        <div>
 
-        <h4>Industry Resources</h4>
+            <h4>Quick Links</h4>
 
-        <a href="https://immi.homeaffairs.gov.au/"
-           target="_blank">
-          Dept of Home Affairs
-        </a>
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#why">Why Us</a>
+            <a href="#faq">FAQ</a>
 
-        <a href="#">Code of Conduct</a>
-
-        <a href="#">Migration Institute of Australia</a>
-
-        <a href="#">Terms & Conditions</a>
-
-      </div>
+        </div>
 
 
-      <div class="footer-column">
+        <div>
 
-        <h4>Partner With Us</h4>
+            <h4>Contact</h4>
 
-        <a href="#contact">
-          Become a Referral Partner
-        </a>
+            <a href="mailto:reports@migrationadmin.com.au">
+                reports@migrationadmin.com.au
+            </a>
 
-        <p>
-          Earn commissions on referrals.
-        </p>
+            <a href="mailto:priority@migrationadmin.com.au">
+                priority@migrationadmin.com.au
+            </a>
 
-      </div>
+        </div>
 
     </div>
 
 
-    <div class="acknowledgement">
+    <div class="footer-bottom container">
 
-      <h4>Acknowledgement of Country</h4>
+        <span>
+            © 2026 MigrationAdmin
+        </span>
 
-      <p>
-        We acknowledge the Traditional Custodians of the land
-        on which we work and live, and recognise their continuing
-        connection to land, water and community. We pay respect
-        to Elders past, present and emerging.
-      </p>
-
-    </div>
-
-
-    <div class="disclaimer">
-
-      <h4>Disclaimer</h4>
-
-      <p>
-        MigrationAdmin provides administrative, copywriting,
-        and research support services only. We do not provide
-        legal advice or "immigration assistance" as defined by
-        the Migration Act 1958 to the final visa applicant.
-        All documents are drafts for review and use by
-        Registered Migration Agents (RMAs) or Legal Practitioners,
-        who retain full professional responsibility for the
-        advice given to their clients. We are not liable for
-        visa refusals.
-      </p>
+        <span>
+            Australian Owned & Operated
+        </span>
 
     </div>
-
-
-    <div class="footer-bottom">
-
-      <span>
-        © 2026 MigrationAdmin
-      </span>
-
-      <span>
-        🇦🇺 Australian Owned & Operated
-      </span>
-
-    </div>
-
-  </div>
 
 </footer>
 
 
-<script>
-
-function toggleMenu() {
-
-  const nav = document.getElementById("nav");
-
-  nav.classList.toggle("active");
-
-}
-
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
